@@ -1,7 +1,6 @@
 import java.io.IOException;
 
-//create a QuestionAnswerSourceAdapter class to adapt the existing FileHandler to the IQuestionAnswerSource interface:
-
+// QuestionAnswerSourceAdapter is an adapter that adapts the existing FileHandler to the IQuestionAnswerSource interface
 public class QuestionAnswerSourceAdapter implements IQuestionAnswerSource {
     private FileHandler fileHandler;
 

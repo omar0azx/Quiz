@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.logging.Logger;
 
+// LoggingFileHandler is a subject that maintains a list of observers and notifies them when its state changes
 public class LoggingFileHandler implements IQuestionAnswerSource {
     private IQuestionAnswerSource questionAnswerSource;
     private final Logger logger;
@@ -21,4 +22,4 @@ public class LoggingFileHandler implements IQuestionAnswerSource {
         logger.info("Getting answer for index: " + index);
         return questionAnswerSource.getAnswer(index);
     }
-    }
+}

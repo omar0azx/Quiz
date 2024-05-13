@@ -4,6 +4,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+// FileHandler is a concrete implementation of the IQuestionAnswerSource strategy
 public class FileHandler {
 
     // Single instance of FileHandler, initially null
